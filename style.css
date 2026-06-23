@@ -298,3 +298,43 @@ td {
     font-size: 32px;
   }
 }
+
+.dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.dropbtn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #2c3e50;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  background: #34495e;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background: #4a627a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
